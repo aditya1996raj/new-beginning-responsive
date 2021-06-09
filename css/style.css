@@ -1,0 +1,1500 @@
+.header{
+    position: absolute;
+    z-index: 3;
+    margin: 0px 15px;
+    background: transparent!important;
+    left: 0;
+    right: 0;
+}
+.navbar-brand{
+    padding: 15px 0px!important;
+}
+/* .navbar-brand img{
+    width: 150px;
+} */
+.link-a{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin-top: 5px;
+}
+.link-a:hover{
+    color:#682e7a!important ;
+}
+.social{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    
+}
+.facebook{
+    padding: 10px 13px 8px 12px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+.twitter{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+.facebook:hover,.twitter:hover{
+    color: #682e7a;
+    border-color: #682e7a;
+}
+.container{
+    max-width: 1200px!important;
+}
+.head{
+    background: #3d3533!important;
+    position: absolute;
+    z-index: 3;
+    margin: 0px;
+    left: 0;
+    right: 0;
+}
+.banner{
+    
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 275px;
+    padding-bottom: 250px;
+    height: 750px; */
+    z-index: -1;        
+}
+.begin{
+    padding-top: 470px;
+    padding-bottom: 80px;
+}
+.begin h1{
+    font-size: 80px;
+    letter-spacing: -5px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Rubik";
+}
+.begin p{
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rubik";
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+}
+.buttons{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rubik";
+    padding: 20px;
+    height: 50px;
+    width: 250px;
+    border-radius: 4px;
+}
+.more{
+    background-color: #682e7a;
+    padding: 15px 19px;
+}
+.us{
+    border: 1px solid white;
+    background: transparent;
+    margin: 0px 10px;
+    padding: 14px 55px;
+}
+.us:hover{
+    background-color: #682e7a;
+    color: #fff;
+    text-decoration: none;
+    border-color: #682e7a;
+    transition: 0.5s ease;
+}
+.more:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease;  
+}
+.mobile{
+    padding: 100px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.photo{
+    margin-right: -50px;
+}
+.photo img{
+    width: 100%;
+}
+.app{
+    margin-left: 80px;
+}
+.app h2{
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: #272727;
+    font-weight: 300;
+    font-family: "Rubik";
+}
+.txt1{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #682e7a;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+.txt2{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #272727;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.org{
+    color:#682e7a ;
+}
+.org:hover{
+    color: #000;
+
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    margin-top: 40px;
+}
+.prayer{
+    padding-right: 50px;
+}
+.mobile:after{
+    content: "";
+    position: absolute;
+    background-color: #272727;
+    top: 0px;
+    left: 0px;
+    height: 760px;
+    width: 50%;
+    z-index: -2;
+    display: inline-block;
+}
+.service{
+    background-color: #f8f3f9;
+}
+.services{
+    margin-left: 155px;
+    padding: 100px 0px
+}
+.services h2{
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: #272727;
+    font-weight: 300;
+    font-family: "Rubik";
+}
+.services p{
+    /* width: 442px; */
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #272727;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.pic{
+    height: 100%;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.learn{
+    margin-top: 30px;
+}
+.learn-btn{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: white!important;
+    background-color: #682e7a;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-family: "Rubik";
+    border-radius: 4px;
+}
+.learn-btn:hover{
+    background-color: black!important;
+    text-decoration: none;
+}
+.community{
+    padding: 100px 0px;
+}
+.picture{
+    background-image: url("../images/Rounded Rectangle 6 (1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 450px; */
+}
+.market{
+    padding: 80px 40px;
+}
+.market h2{
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Rubik";
+    text-align: right;
+    padding-bottom: 20px;
+}
+.market p{
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    text-align: right;
+}
+.history{
+    padding: 100px 0px;
+    background-color: #272727;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.history:after {
+    content: '';
+    /* background: url('../images/line.png'); */
+    position: absolute;
+    left: 49.99%;
+    right: 50%;
+    top: -50%;
+    bottom: -80px;
+    z-index: 10;
+    background: #525252;
+}
+.box{
+    padding: 0px 25px;
+}
+.box h2{
+    font-size: 46px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: white;
+    font-weight: 300;
+    font-family: "Rubik";
+    margin-bottom: 40px;
+}
+.pastor{
+        font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Rubik";
+    /* margin-bottom: 20px; */
+}
+.found{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.box-img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.box2-img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.box-btn{
+    margin-bottom: 40px;
+}
+
+.our{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: white;
+    background-color: #682e7a;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin-bottom: 40px;
+}
+.our:hover{
+    background-color: black;
+    text-decoration: none;
+}
+.ann{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.mission{
+    padding: 100px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.mission:after {
+    content: '';
+    background: url('../images/line.png');
+    position: absolute;
+    left: 49.99%;
+    right: 50%;
+    top: -50%;
+    bottom: 290px;
+    z-index: -1;
+}
+.mission h2{
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: #272727;
+    font-weight: 300;
+    font-family: "Rubik";
+    text-align: center;
+    margin-bottom: 40px;
+}
+.mission-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.mission-btn:before {
+    content: '';
+    background: url('../images/scale.png');
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0%;
+    bottom: 1px;
+    z-index: -1;
+}
+.our-txt{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+.vision {
+    padding: 20px;
+    height: 100%;
+    
+}
+.p1{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+
+}
+.p2{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Rubik";
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.p3{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Rubik";
+    margin-bottom: 25px;
+}
+.p4{
+    /* width: 441px;
+    height: 69px; */
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.p5{
+    /* width: 480px;
+    height: 382px; */
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+
+}
+.image-1{
+    background-image: url('../images/Rounded Rectangle 8 (1).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    
+   
+}
+.image-1:after {
+    content: '';
+    background: #5b2a6c;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.image-2{
+    background-image: url('../images/Rounded Rectangle 8 copy (1).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.image-2:after {
+    content: '';
+    background: #222222;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.scale{
+    position: absolute;
+    z-index: -3;
+    margin: -80px;
+    left: 0;
+    right: 0;
+}
+.sermon{
+    padding: 100px 0px;
+    background-color: #eeeff8;
+}
+.sermons{
+    text-align: center;
+}
+.sermons h2{
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: #272727;
+    font-weight: 300;
+    font-family: "Rubik";
+}
+.sermons p{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #682e7a;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+.roman img{
+    width: 100%;
+}
+.sept{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #682e7a;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin-bottom: 30px;
+}
+.romans{
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 30px;
+    color: #272727;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin-bottom: 20px;
+}
+.content{
+    padding-left: 10px;
+}
+.speaker{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #272727;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin-bottom: 40px;
+}
+.speakers{
+    color: #682e7a;
+}
+.part{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #682e7a;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+.refrence{
+    margin-top: 30px;
+}
+.ref{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #682e7a;
+    font-weight: 500;
+    font-family: "Rubik";
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: transparent;
+}
+.ref:hover{
+    text-decoration: none;
+    background:#682e7a ;
+    color: white;
+}
+
+
+
+
+.online{
+    background-image: url('../images/Rectangle 2 copy 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 520px; */
+}
+.give{
+    padding: 120px 0px;
+}
+.give h2{
+    font-size: 50px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: #272727;
+    font-weight: 300;
+    font-family: "Rubik";
+}
+.connect{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #682e7a;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+.everyone{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: black;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+.today{
+    margin-top: 30px;
+}
+.footer{
+    padding-top: 100px ;
+    padding-bottom: 5px;
+    background: #272727;
+}
+.brand img{
+    margin-bottom: 50px;
+}
+.foot-txt{
+    width: 268px;
+    height: 195px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.pad{
+    padding-left: 80px;
+}
+.links h4{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin-top: 80px;
+}
+.menu{
+    margin-top: 25px;
+    list-style: none;
+    -moz-column-count: 2;
+    -moz-column-gap: 0px;
+    -moz-column-fill: auto;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0px;
+    -webkit-column-fill: auto;
+    column-count: 2;
+    column-gap: 0px;
+    column-fill: auto;
+    padding: 0px;
+}
+.menu-item{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rubik";
+}
+.menu-item:hover{
+    text-decoration: none;
+    color:#682e7a ;
+
+}
+.example{
+
+    max-width: 380px;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+.txtbox{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 85%;
+}
+.txtbtn{
+    background: transparent;
+    border: none;
+    outline: none;
+    /* float: right; */
+}
+.socio{
+    padding-left: 0px;
+}
+.foot{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.foot-2{
+    float: right;
+    margin-top: -60px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575px){
+    .navbar-nav{
+        background-color: black!important;
+        padding: 10px 20px!important;
+    }
+    .social{
+        padding: 0px;
+    }
+    .button{
+        display: block;
+    }
+    .link-a{
+        font-size: 14px;
+    }
+    .begin h1 {
+        font-size: 50px;
+    }
+    .begin p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .begin {
+        padding-top: 235px;
+        padding-bottom: 60px;
+    }
+    .mobile {
+        padding: 60px 0px;
+    }
+    
+    .box2-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .buttons {
+        font-size: 12px;
+        padding: 15px;
+    }
+    .us{
+        margin: 0px;
+    }
+    .photo{
+        margin: 0px;
+    }
+    .mobile:after{
+        display: none;
+    }
+    .app{
+        margin: 0px;
+        padding-top: 60px;
+    }
+    .app h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    .community {
+        padding: 60px 0px;
+    }
+    .prayer {
+        padding-right: 20px;
+    }
+    .services{
+        margin-left: 0px;
+       padding: 60px 0px;
+    }
+    .services h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .services p {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;    
+    }
+    .pic img {
+     height: auto;
+    }
+    .mission-btn {
+        margin-top: 35px;
+    }
+    .learn-btn {
+        font-size: 12px;
+    }
+    .box{
+        padding: 0px;
+    }
+    .mission h2 {
+        font-size: 40px;
+    }
+    .vision{
+        padding: 20px 0px ;
+    }
+    .market {
+        padding: 50px 20px;
+    }
+    .market h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .market p {
+        font-size: 18px;
+    }
+    .history {
+        padding: 60px 0px;
+    }
+    .history:after{
+        display: none;
+    }
+    .box h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .found,.ann {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .mission {
+        padding: 60px 0px;
+    }
+    .mission:after{
+        display: none;
+    }
+    .image-1,.image-2{
+        padding: 20px;
+    }
+    .p1 {
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        line-height: 24px;
+    }
+    .p2{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .p3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .p4,.p5{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .sermon {
+        padding: 60px 0px;
+    }
+    .sermons h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .sermons p {
+        line-height: 30px;
+    }
+    .romans {
+        font-size: 32px;
+    }
+    .part {
+        font-size: 16px;
+    }
+    .ref {
+        font-size: 14px;
+        line-height: 50px;
+    }    
+    .block{
+        padding: 20px 10px;
+    }
+    .give {
+        padding: 60px 0px;
+    }
+    .give h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .connect {
+        font-size: 18px;
+    }
+    .everyone {
+        font-size: 18px;
+    }
+    .pad{
+        padding: 0px;
+    }
+    .menu{
+        column-gap: 15px;
+    }
+    .foot {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .foot-2 {
+        float: none;
+        margin-top: 0px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+    
+    
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 575px) and  (max-width: 767px){
+    .navbar-nav{
+        background-color: black!important;
+        padding: 10px 20px!important;
+    }
+    .social{
+        padding: 0px;
+    }
+    .begin h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .begin p {
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 40px;
+    }
+    .begin {
+        padding-top: 210px;
+        padding-bottom: 40px;
+    }
+    .buttons {
+        font-size: 12px;
+        line-height: 40px;
+        padding: 15px;
+    }
+    .mobile,.community,.history,.mission,.sermon {
+        padding: 60px 0px;
+    }
+    /* .box2-img {
+        width: auto;
+    } */
+    .mobile:after{
+        display: none;
+    }
+    .photo,.app{
+        margin: 0px;
+    }
+    .image-1,.image-2{
+        height: auto;
+    }
+    .services{
+        margin: 0px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .learn-btn {
+        font-size: 14px;
+        line-height: 50px;
+        padding: 15px 25px;
+    }
+    
+    .app h2{
+        margin-top: 20px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .services p {
+        width: auto;
+    }
+    .pic img {
+        height: auto;
+    }
+    .history:after{
+        display: none;
+    }
+    .found,.ann {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .market {
+        padding: 40px 20px;
+    }
+    .market h2 {
+        font-size: 45px;
+    line-height: 50px;
+
+    }
+    .market p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mission h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .p1,.p4,.p5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .p2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .p3 {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .mission:after{
+        display: none;
+    }
+    .mission-btn {
+        margin-top: 40px;
+    }
+    .sermons h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .sermons p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    
+    
+    .box {
+        padding: 0px ;
+    }
+    .box h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .vision,.block{
+        padding: 20px;
+    }
+    .give {
+        padding: 60px 0px;
+    }
+    .give h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .pad{
+        padding: 0px;
+    }
+    .example{
+        margin: 40px 0px;
+    }
+    .foot{
+        line-height: 40px;
+    }
+    .foot-2 {
+        float: none;
+        margin-top: 0px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+
+
+
+
+    
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar-nav{
+        background-color: black!important;
+        padding: 10px 20px!important;
+    }
+    .social{
+        padding: 0px;
+    }
+    .begin {
+        padding-top: 265px;
+        padding-bottom: 50px;
+    }.begin h1 {
+        font-size: 70px;
+    }
+    .begin p {
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .buttons {
+        font-size: 14px;
+        padding: 15px;
+    }
+    
+    .banner{
+        height: 530px;
+    }
+    .mobile {
+        padding: 80px 0px;
+    }
+    
+    .app h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .txt1 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .txt2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .prayer {
+        padding-right: 15px;
+    }
+    .services {
+        margin-left: 0px;
+        padding: 80px 0px;
+    }
+    .services h2 {
+        font-size: 45px;
+        line-height: 50px;
+        
+    }
+    
+    .services p {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .learn-btn {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 18px 25px;
+    }
+    .community,.history,.mission,.sermon {
+        padding: 80px 0px;
+    }
+
+    .p1 {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .p2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .p3 {
+        font-size: 16px;
+        line-height: 60px;
+        margin-bottom: 0px;
+    }
+    
+    .p4 {
+        font-size: 16px;
+        line-height: 24px;
+       /* margin-bottom: 40px; */
+    }
+    .p5 {
+        font-size: 16px;
+        line-height: 24px;
+        /* padding-bottom: 4px; */
+    }
+    
+    .market {
+        padding: 30px 20px;
+    }
+    .market h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .market p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .box{
+        padding: 0px ;
+    }
+    .box h2 {
+        font-size: 30px;
+
+    }
+    .box2-img {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .found,.ann {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .vision{
+        padding: 0px 5px;
+    }
+    .and{
+        /* height: 540px; */
+        margin-bottom: 30px;
+    }
+    .image-1,.image-2{
+        padding: 20px;
+    }
+    .sermons h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .sermons p {
+        line-height: 40px;
+    }
+    .ref {
+        font-size: 14px;
+        line-height: 60px;
+        padding: 12px 25px;
+    }
+    
+    .mission:after{
+        bottom: 250px;
+    }
+    
+    .romans {
+        font-size: 24px;
+    }
+    .speaker {
+        font-size: 10px;
+    }
+    .part {
+        font-size: 14px;
+    }
+    .give {
+        padding: 80px 0px;
+    }
+    .give h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .foot-txt {
+        width: auto;
+        height: auto;
+    }
+    .pad{
+        padding: 0px 20px;
+    }
+    .menu{
+        column-gap: 25px;
+    }
+    .txtbox{
+        
+    width: 70%;
+
+    }
+    .foot {
+        font-size: 12px;
+    }
+    .foot-2 {
+        margin-top: -55px;
+    }
+
+    
+
+    
+}
+
+
+@media only screen and (min-width: 991px) and (max-width:1199px){
+    .navbar-nav{
+        background-color: black!important;
+        padding: 10px 20px!important;
+    }
+    .social{
+        padding: 0px;
+    }
+    /* .navbar-brand img{
+        width: 120px;
+    } */
+    .social{
+        padding: 0px;
+    }
+    .facebook,.twitter{
+        font-size: 10px!important;
+    }
+    .begin {
+        padding-top: 240px;
+        padding-bottom: 60px;
+    }
+    .mobile,.history,.sermon{
+        padding:80px 0px ;
+    }
+    .services{
+        margin-left: 0px;
+        padding: 80px 0px;
+    }
+    .app h2,.services h2,.market h2,.sermons h2  {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .txt2,.services p,.found,.ann {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .learn-btn {
+        font-size: 14px;
+        line-height: 35px;
+    padding: 15px 24px;
+    }
+    .community{
+        padding: 80px 0px;
+    }
+    .mission:after{
+        bottom: 264px;  
+        left: 49.9%;
+
+    }
+    .box h2 {
+        font-size: 40px;
+    }
+    
+    .market p{
+        font-size: 20px;
+    }
+    .p1 {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+    line-height: 24px;
+    }
+    .p2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .p3 {
+        font-size: 18px;
+        line-height: 50px;
+        margin-bottom: 12px;
+    }
+    .p4,.p5{
+        font-size: 16px;
+    line-height: 24px;
+    }
+    .image-1,.image-2{
+        padding:20px;
+    }
+    .sermons p{
+        
+    line-height: 40px;
+
+    }
+    .romans {
+        font-size: 32px;
+    }
+    .speaker {
+        font-size: 14px;
+    }
+    .part {
+        font-size: 16px;
+    }
+    .give {
+        padding: 80px 0px;
+    }
+    .links h4 {
+        font-size: 18px;
+    }
+    .txtbox{
+        width: 75%;
+    }
+    .footer {
+        padding-top: 80px;
+    }
+
+    
+
+
+    
+
+}
+@media only screen and (min-width:1200px) and (max-width:1490px){
+    .link-a{
+        font-size: 9px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .navbar-brand img{
+        width: 120px;
+    }
+    .social{
+        padding: 0px;
+    }
+    .services {
+        margin-left: auto;
+        padding: 55px 0px;
+    }
+    .services h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    .services p {
+        width:auto;
+    }
+    
+    
+    .mission:after{
+        left: 49.9%;
+       }
+}
+
+
+
+@media only screen and (min-width:1490px) and (max-width:1670px){
+    .link-a {
+        font-size: 12px;
+    }
+    .social{
+        padding: 0px 5px;
+    }
+    .navbar-brand{
+        width: 130px;
+    }
+    .navbar-nav{
+        margin-top: 25px;
+    }
+    
+
+
+
+}
+
+
+
+@media only screen and (min-width:1670px) and (max-width:1860px){
+    .link-a {
+        font-size: 14px;
+    }
+    .social{
+        padding: 0px 5px;
+    }
+    .services{
+        margin-left:auto ;
+        padding: 100px 0px;
+    }
+
+}
